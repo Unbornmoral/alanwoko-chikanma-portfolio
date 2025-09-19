@@ -41,8 +41,8 @@ const ContactSection = () => {
     {
       icon: Mail,
       label: "Email",
-      value: "your.email@example.com",
-      href: "mailto:your.email@example.com",
+      value: "calanwoko@gmail.com",
+      href: "mailto:calanwoko@gmail.com",
     },
     {
       icon: Phone,
@@ -62,12 +62,12 @@ const ContactSection = () => {
     {
       icon: Github,
       label: "GitHub",
-      href: "https://github.com/yourusername",
+      href: "https://github.com/unbornmoral",
     },
     {
       icon: Linkedin,
       label: "LinkedIn",
-      href: "https://linkedin.com/in/yourusername",
+      href: "https://www.linkedin.com/in/alanwoko-chikanma-ba7680325",
     },
     {
       icon: Twitter,

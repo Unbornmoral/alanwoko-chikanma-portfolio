@@ -4,17 +4,17 @@ const Footer = () => {
   const socialLinks = [
     {
       icon: Github,
-      href: "https://github.com/yourusername",
+      href: "https://github.com/unbornmoral",
       label: "GitHub"
     },
     {
       icon: Linkedin,
-      href: "https://linkedin.com/in/yourusername",
+      href: "https://www.linkedin.com/in/alanwoko-chikanma-ba7680325",
       label: "LinkedIn"
     },
     {
       icon: Mail,
-      href: "mailto:your.email@example.com",
+      href: "mailto:calanwoko@gmail.com",
       label: "Email"
     },
   ];
@@ -33,10 +33,10 @@ const Footer = () => {
               onClick={scrollToTop}
               className="text-2xl font-bold text-gradient hover:scale-105 transition-smooth mb-4 block"
             >
-              &lt;YourName /&gt;
+              &lt;Alanwoko Chikanma /&gt;
             </button>
             <p className="text-muted-foreground text-sm">
-              © 2024 Your Name. All rights reserved.
+              © 2024 Alanwoko Chikanma. All rights reserved.
             </p>
           </div>
 

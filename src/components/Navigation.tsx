@@ -44,7 +44,7 @@ const Navigation = () => {
             onClick={() => scrollToSection("#home")}
             className="text-2xl font-bold text-gradient hover:scale-105 transition-smooth"
           >
-            &lt;YourName /&gt;
+            &lt;Alanwoko Chikanma /&gt;
           </button>
 
           {/* Desktop Navigation */}

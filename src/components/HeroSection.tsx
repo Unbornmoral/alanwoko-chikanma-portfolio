@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Github, Linkedin, Mail, Download } from "lucide-react";
 import heroBackground from "@/assets/hero-background.jpg";
+import profilePhoto from "@/assets/profile-photo.jpg";
 
 const HeroSection = () => {
   const scrollToSection = (sectionId: string) => {
@@ -29,9 +30,11 @@ const HeroSection = () => {
         {/* Profile Image Placeholder */}
         <div className="mb-8 fade-in">
           <div className="w-32 h-32 mx-auto rounded-full bg-gradient-primary p-1 animate-pulse-glow">
-            <div className="w-full h-full rounded-full bg-muted flex items-center justify-center text-4xl font-bold text-primary">
-              YN
-            </div>
+            <img 
+              src={profilePhoto} 
+              alt="Alanwoko Chikanma" 
+              className="w-full h-full rounded-full object-cover"
+            />
           </div>
         </div>
 
@@ -70,7 +73,7 @@ const HeroSection = () => {
         {/* Social Links */}
         <div className="flex items-center justify-center gap-6 fade-in fade-in-delay-3">
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/unbornmoral"
             target="_blank"
             rel="noopener noreferrer"
             className="text-muted-foreground hover:text-primary transition-smooth hover-lift"
@@ -78,7 +81,7 @@ const HeroSection = () => {
             <Github size={24} />
           </a>
           <a
-            href="https://linkedin.com/in/yourusername"
+            href="https://www.linkedin.com/in/alanwoko-chikanma-ba7680325"
             target="_blank"
             rel="noopener noreferrer"
             className="text-muted-foreground hover:text-primary transition-smooth hover-lift"
@@ -86,7 +89,7 @@ const HeroSection = () => {
             <Linkedin size={24} />
           </a>
           <a
-            href="mailto:your.email@example.com"
+            href="mailto:calanwoko@gmail.com"
             className="text-muted-foreground hover:text-primary transition-smooth hover-lift"
           >
             <Mail size={24} />
