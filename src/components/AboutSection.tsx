@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Progress } from "@/components/ui/progress";
 import { Download } from "lucide-react";
+import aboutPhoto from "@/assets/about-photo.jpg";
 
 const AboutSection = () => {
   const skills = [
@@ -39,12 +40,14 @@ const AboutSection = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left Column - Image and Bio */}
           <div className="space-y-8">
-            {/* Profile Image Placeholder */}
+            {/* Profile Image */}
             <div className="relative">
               <div className="w-80 h-80 mx-auto lg:mx-0 rounded-2xl bg-gradient-primary p-1">
-                <div className="w-full h-full rounded-2xl bg-muted flex items-center justify-center text-6xl font-bold text-primary">
-                  Photo
-                </div>
+                <img 
+                  src={aboutPhoto} 
+                  alt="Alanwoko Chikanma" 
+                  className="w-full h-full rounded-2xl object-cover"
+                />
               </div>
             </div>
 
@@ -76,6 +79,12 @@ const AboutSection = () => {
               <Button
                 size="lg"
                 className="bg-primary hover:bg-primary/90 text-primary-foreground glow-effect"
+                onClick={() => {
+                  const link = document.createElement('a');
+                  link.href = '/resume.docx';
+                  link.download = 'Alanwoko_Chikanma_Resume.docx';
+                  link.click();
+                }}
               >
                 <Download size={20} className="mr-2" />
                 Download Resume
