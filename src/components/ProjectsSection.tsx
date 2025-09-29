@@ -15,7 +15,7 @@ const ProjectsSection = () => {
     },
     {
       title: "NAPSS UNILAG",
-      description: "Official website for the National Association of Political Science Students, University Of Lagos Charter
+      description: "Official website for the National Association of Political Science Students, University Of Lagos Charter.",
       technologies: ["React", "JavaScript", "CSS3", "Node.js"],
       role: "Full Stack Developer",
       contributions: "Designed and developed the entire frontend, implemented responsive design, optimized performance",
