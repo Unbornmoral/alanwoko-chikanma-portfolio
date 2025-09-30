@@ -47,13 +47,13 @@ const ContactSection = () => {
     {
       icon: Phone,
       label: "Phone",
-      value: "+1 (555) 123-4567",
-      href: "tel:+15551234567",
+      value: "+2348162789938",
+      href: "tel:+2348162789938",
     },
     {
       icon: MapPin,
       label: "Location",
-      value: "Your City, Country",
+      value: "Lagos, Nigeria",
       href: "#",
     },
   ];
