@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Progress } from "@/components/ui/progress";
 import { Download } from "lucide-react";
-import aboutPhoto from "@/assets/myedit.png";
+import aboutPhoto from "@/assets/myeditee.png";
 
 const AboutSection = () => {
   const skills = [
